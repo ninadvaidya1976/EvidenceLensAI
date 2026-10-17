@@ -1,0 +1,14 @@
+SYNTHETIC SAMPLE — NOT REAL ORGANIZATIONAL DATA
+
+Access Review Procedure — Draft
+
+The IT administrator creates user accounts after receiving a request from the employee's manager. User access is based on job responsibilities.
+
+The IT team intends to review access rights quarterly. The latest review spreadsheet was prepared, but this sample does not include an approval record or evidence that identified excessive access was removed.
+
+Privileged administrator accounts are used by two system administrators. This sample does not describe separate administrator accounts, periodic privileged-access review, or monitoring of privileged sessions.
+
+The organization records authentication failures on the main application server. This sample does not state the log retention period or show evidence of regular log review.
+
+Document owner: IT Operations
+Status: Draft
