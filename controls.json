@@ -1,0 +1,746 @@
+[
+ {
+  "id": "A.5.1",
+  "name": "Policies for information security",
+  "theme": "Organizational Controls",
+  "objective": "Information security policy and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and relevant interested parties, and reviewed at planned intervals and if significant changes occur.",
+  "questions": "1. Do Security policies exist.\n2. Are all policies approved by management.\n3. Are policies properly communicated to employees.\n4. Are security policies subject to review.\n5. Are the reviews conducted at regular intervals.\n6. Are reviews conducted when circumstances \nchange.",
+  "evidence": "1. Approved Information Security Policy\n2. Approval evidence (Mail confirmation/ board MOM)\n3. Communication Evidence of Information Security policy"
+ },
+ {
+  "id": "A.5.2",
+  "name": "Information security roles and responsibilities",
+  "theme": "Organizational Controls",
+  "objective": "Information security roles and responsibilities shall be defined and allocated according to the organization needs",
+  "questions": "1. Are the employees properly briefed on their \ninformation security roles and responsibilities prior to \nbeing granted access to the organization’s \ninformation and other associated assets.\n2. Are responsibilities for the protection of individual \nassets and Responsibilities for information security \nrisk management activities and in particular for \nacceptance of residual risks should be defined.",
+  "evidence": "1. Information Security Policy (including roles and responsbilities)\n(or)\nOrganization Structure ( including roles and responsibilities)\n2. Communication evidence of Information security roles and responsibilities"
+ },
+ {
+  "id": "A.5.3",
+  "name": "Segregation of duties",
+  "theme": "Organizational Controls",
+  "objective": "Conflicting duties and conflicting areas of responsibility shall be segregated.",
+  "questions": "1. Are duties and areas of responsibility separated, in \norder to reduce opportunities for unauthorized \nmodification or misuse of information, or services.",
+  "evidence": "1. Information Security Policy including Roles & Responsiblity.\n2. Segregation of duties Document"
+ },
+ {
+  "id": "A.5.4",
+  "name": "Management responsibilities",
+  "theme": "Organizational Controls",
+  "objective": "Management shall require all personnel to apply information security in accordance with the established information security policy, topic-specific policies and procedures of the organization",
+  "questions": "1. Does the management demonstrate support of the \ninformation security policy, topic-specific policies, \nprocedures and information security controls.\n2. Does the management ensures that personnel \nachieve a level of awareness of information security\nrelevant to their roles and responsibilities within the \norganization.\n3. Does the management ensures that personnel are \nprovided with adequate resources and project \nplanning time for implementing the organization’s \nsecurity-related processes and controls.",
+  "evidence": "1. Mail confirmation of scheduled Information security awareness training\n2. Security awareness training material\n3. Awareness training attendance sheet and quizz\n4. Project plan time for implementing the organization security related process and controls"
+ },
+ {
+  "id": "A.5.5",
+  "name": "Contact with authorities",
+  "theme": "Organizational Controls",
+  "objective": "The organization shall establish and maintain contact with relevant authorities.",
+  "questions": "1. Is there a procedure documenting when, and by \nwhom, contact with relevant authorities (law \nenforcement etc.) will be made.\n2. Is there a process, which details how and when \ncontact, is required?\n3. Is there a process for routine contact and \nintelligence sharing.",
+  "evidence": "1. Information Securty Policy including incident reporting contact details of relevant authorities and procedure."
+ },
+ {
+  "id": "A.5.6",
+  "name": "Contact with special interest groups",
+  "theme": "Organizational Controls",
+  "objective": "The organization shall establish and maintain contact with special interest groups or other specialist security forums and professional association",
+  "questions": "1. Do relevant individuals within the organisation \nmaintain active membership in relevant special \ninterest groups.\n2. Does relevant individuals within the organization \ngain knowledge about best practices and stay up to \ndate with relevant security information.\n3. Does relevant individuals within the organization \nshare and exchange information about new \ntechnologies, products, services, threats or \nvulnerabilities.",
+  "evidence": "1) Information Security Policy \n2) List of forums and associations\n3) Mail Trail with special interest groups or other specialist security forums and professional associations. (Subscriptions)"
+ },
+ {
+  "id": "A.5.7",
+  "name": "Threat intelligence",
+  "theme": "Organizational Controls",
+  "objective": "Information relating to information security threats shall be collected and analysed to produce threat intelligence.",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess for collecting, analyzing and evaluating \ninformation related to information security threats.\n2. Does the threat intelligence program ensure that \nthe information collected related to information \nsecurity threats are relevant, insightful, contextual \nand actionable.\n3. Does the threat intelligence program has a formal \nprocess for identifying, vetting and selecting internal \nand external information security threat sources and \nanalyzing information to understand the impact to \nthe organization.",
+  "evidence": "1. Documented Procedures of Security Operations Centre (SOC)                      \n2. Configuration of threat alerts\n3. Threat Intelligence Policy\n4. Threat Intelligence Tool \n5. Incident Tracker\n6. Documented form of Lesson learnt\n7. DMARC DKIM for Email Security\n8. Incident Mail Trail Sample\n9. Threat intellegence program"
+ },
+ {
+  "id": "A.5.8",
+  "name": "Information security in project management",
+  "theme": "Organizational Controls",
+  "objective": "Information security shall be integrated into project management",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to ensure information security risks related to \nprojects and deliverables are effectively addressed in \nproject management throughout the project life \ncycle.\n2. Are the information security risks assessed and \ntreated at an early stage and periodically as part of \nproject risks throughout the project life cycle.\n3. Are the requirements regards to compliance with \nthe legal, statutory, regulatory and contractual \nrequirements considered throughout the project \nmanagement life cycle?",
+  "evidence": "1. Project Management Methodology documents.  (Project management SOP)                                      \n2. SOP including data handling procedures"
+ },
+ {
+  "id": "A.5.9",
+  "name": "Inventory of information and other associated assets",
+  "theme": "Organizational Controls",
+  "objective": "An inventory of information and other associated assets, including owners, shall be developed and maintained.",
+  "questions": "1. Is there an inventory of all assets associated with \ninformation and information processing facilities.\n2. Is the inventory accurate and kept up to date.\n3. Are the asset owners identified and tagged to all \nassets.\n4. Is the asset inventory updated when assets are \nprocured, decommissioned or disposed.",
+  "evidence": "1. Asset Inventory including Ownership with defined criticality                              \n2. Asset Inventory Review Report"
+ },
+ {
+  "id": "A.5.10",
+  "name": "Acceptable use of information and other associated assets",
+  "theme": "Organizational Controls",
+  "objective": "Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented.",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to ensure information and other associated \nassets are appropriately protected, used and handled.\n2. Is the policy approved by the management.\n3. Is the policy communicated to all individuals of the \norganization.\n4. Does the policy at minimum covers expected and \nunacceptable behaviors of employees from an \ninformation security perspective",
+  "evidence": "1. Acceptable Usage Policy \n2. Communication evidence of acceptable usage policy\n3. Evidence of communication and training regarding information handling procedures."
+ },
+ {
+  "id": "A.5.11",
+  "name": "Return of assets",
+  "theme": "Organizational Controls",
+  "objective": "Personnel and other interested parties as appropriate shall return all the organization’s assets in their possession upon change or termination of their employment, contract or agreement.",
+  "questions": "1. Is there a process in place to ensure all employees \nand external users return the organisation's assets on \ntermination of their employment, contract or \nagreement.\n2. Is the organization following the defined process \nfor collecting all physical and electronic assets \nprovided to the employee.",
+  "evidence": "1. Organization's asset management policy/ \"Return of Assets\" procedure                                   \n2. Asset inventory records.\n3. Assets handover & return form."
+ },
+ {
+  "id": "A.5.12",
+  "name": "Classification of information",
+  "theme": "Organizational Controls",
+  "objective": "Information shall be classified according to the information security needs of the organization based on confidentiality, integrity, availability and relevant interested party requirements.",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to classify information and assets based on \nthe criticality and sensitivity of the information.\n2. Are the requirements for confidentiality, integrity \nand availability considered for the classification.\n3. Is the classification scheme defined and followed \nfor information classification.\n4. Are the information owners involved in classifying \nthe information under their control.\n5. Is there a defined process for declassifying or to \nchange the classification of the information.\n6. Is the information classification reviewed on \nperiodic basis.",
+  "evidence": "1. Information Classification Policy\n2. Asset inventory,                                            \n3. Information classification procedures"
+ },
+ {
+  "id": "A.5.13",
+  "name": "Labelling of information",
+  "theme": "Organizational Controls",
+  "objective": "An appropriate set of procedures for information labelling shall be developed and implemented in accordance with the information classification scheme adopted by the organization.",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to label the information within the \norganization.\n2. Does the labelling process defined the contents to \nbe included in the label.",
+  "evidence": "1. Information classification policy and procedures.\n2. Physical evidence for labelling"
+ },
+ {
+  "id": "A.5.14",
+  "name": "Information transfer",
+  "theme": "Organizational Controls",
+  "objective": "Information transfer rules, procedures, or agreements shall be in place for all types of transfer facilities within the organization and between the organization and other parties.",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to maintain the security of information \ntransferred within an organization and with any \nexternal interested parties.\n2. Are procedures for how data should be transferred \nmade available to all employees.\n3. Are relevant technical controls in place to prevent \nnon-authorised forms of data transfer\n4.Is there a documented policy and process detailing \nhow physical media should be transported.\n5. Is media in transport protected against \nunauthorised access, misuse or corruption.",
+  "evidence": "1. Information transfer procedures\n2. Data transfer agreements with third parties\n3. Logs for internal information transfer activity"
+ },
+ {
+  "id": "A.5.15",
+  "name": "Access control",
+  "theme": "Organizational Controls",
+  "objective": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements.",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to manage logical and physical access to \ninformation, assets and information processing \nassets.\n2. Is the policy based on business requirements.\n3. Is the policy communicated appropriately.\n4. Does the access management include the principles \nof \"need-to-know\" and \"need-to-use\" for managing \nlogical and physical access to information, assets and \ninformation processing facilities.",
+  "evidence": "1. Access control policy.\n2. Communication evidence of Access management policy\n3. User account management procedures\n4. User review report\n5. List of users with access"
+ },
+ {
+  "id": "A.5.16",
+  "name": "Identity management",
+  "theme": "Organizational Controls",
+  "objective": "The full life cycle of identities shall be managed.",
+  "questions": "1. Are the employees provided with unique IDs for \naccessing information, assets and information \nprocessing facilities.\n2. Shared user IDs/Accounts are only authorized\nwhen necessary for business purposes and after \napprovals\n3. Are the Identities removed/disabled when no \nlonger needed.",
+  "evidence": "1. Identity management policies and procedures\n2. User account provisioning and deprovisioning procedures\n3. Sample user acount creation approval mail\n4. Sample user account deactivation mail\n5. User account active tracker"
+ },
+ {
+  "id": "A.5.17",
+  "name": "Authentication information",
+  "theme": "Organizational Controls",
+  "objective": "Allocation and management of authentication information shall be controlled by a management process, including advising personnel on appropriate handling of authentication information.",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to distribute or assign authentication \ncredentials for employees.\n2. Is there a documented policy/procedure describing \nthe baseline requirements of authentication \ncredentials(passwords/passphrases/PINs) used for \naccessing organization information, assets and \ninformation processing facilities.\n2. Are the passwords/authentication credentials \ncommunicated to employees via a secured channel.\n3. Are the employees prompted to change the \ncredentials upon first login.\n4. Is there a formal process for resetting \nauthentication credentials.",
+  "evidence": "1. Authentication information management policies and procedures\n2. Password policy\n3. User training materials\n4. Password vault tool (IF ANY)\n5. Screenshot of changing credentials upon first logon.\n6. Secure communication of credentials with employees"
+ },
+ {
+  "id": "A.5.18",
+  "name": "Access rights",
+  "theme": "Organizational Controls",
+  "objective": "Access rights to information and other associated assets shall be provisioned, reviewed, modified and removed in accordance with the organization’s topic-specific policy on and rules for access control.",
+  "questions": "1. Are the assess rights assigned considering the \nbusiness requirements and individual's roles and \nresponsibilities.\n2. Is the principle of segregation of duties considered \nwhile provisioning access rights.\n3. are appropriate approvals taken from \nasset/information owners for provisioning or revoking \naccess rights.\n4. Is there a predefined frequency for reviewing the \naccess rights.\n5. Are the access rights modified upon change of job \nrole or termination.",
+  "evidence": "1. Access control policy \n2. User access request and approval logs.\n3. User Access Review Report\n4. Access rights modification upon termination or change of employment"
+ },
+ {
+  "id": "A.5.19",
+  "name": "Information security in supplier relationships",
+  "theme": "Organizational Controls",
+  "objective": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the use of supplier’s products or services.",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to manage information security \nrisks associated with the use of supplier’s products or \nservices.\n2. Are the vendors/suppliers evaluated with the \norganization's requirements for information security.\n3. Are the process defined for handling incidents and \ncontingencies associated with supplier products and \nservices. \n4. Are suppliers/vendors provided with documented \nsecurity requirements?\n5. Is supplier/vendor's access to information assets & \ninfrastructure controlled and monitored?",
+  "evidence": "1. TPRM (Third Party Risk Management) Audit Reports\n2. Vendor Risk Management Policy\n3. Vendor List\n4. Relevant Vendor Agreements\n5. Access monitoring of suplier/vendor's"
+ },
+ {
+  "id": "A.5.20",
+  "name": "Addressing information security within supplier agreements",
+  "theme": "Organizational Controls",
+  "objective": "Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship",
+  "questions": "1. Are the information security requirements included \nin contracts established with suppliers and service \nproviders?\n2. Does the contracts established with supplier and \nservice providers include legal, statutory, regulatory, \ndata protection, handling of personally identifiable \ninformation (PII), intellectual property rights and \ncopyright requirements.\n3. Does the contracts established with supplier and \nservice providers include rules of acceptable use of \norganization's information and information assets.",
+  "evidence": "1. Service level Agreement SLA of Vendor\n2. Master Service Agreement MSA of Vendor"
+ },
+ {
+  "id": "A.5.21",
+  "name": "Managing information security in the information and communication technology (ICT) supply chain",
+  "theme": "Organizational Controls",
+  "objective": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the ICT products and services supply chain.",
+  "questions": "1. Do supplier agreements include requirements to \naddress information security within the service & \nproduct supply chain.",
+  "evidence": "1. Information Security Policy\n2. TPRM Report\n3. Relevant Vendor Agreements"
+ },
+ {
+  "id": "A.5.22",
+  "name": "Monitoring, review and change management of supplier services",
+  "theme": "Organizational Controls",
+  "objective": "The organization shall regularly monitor, review, evaluate and manage change in supplier information security practices and service delivery",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to maintain an agreed level of information \nsecurity and service delivery in line with supplier \nagreements.\n2. Are the SLA's (Service Level Agreements) defined \nfor all service providers .\n3. Are there any periodic checks done to ensure the \nsupplier is delivering the agreed level of services to \nthe organization.",
+  "evidence": "1. Supplier Monitoring and Review \n2. Compliance Assessment and Incident Response \n3. Vendor Management Policy\n4. Vendor Risk Assessment reports"
+ },
+ {
+  "id": "A.5.23",
+  "name": "Information security for use of cloud services",
+  "theme": "Organizational Controls",
+  "objective": "Processes for acquisition, use, management and exit from cloud services shall be established in accordance with the organization’s information security requirements.",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to manage information security for the use of \ncloud services within the organization.\n2. Are the roles and responsibilities related to the use \nand management of cloud services defined.\n3. Is there a process defined to o obtain assurance on \ninformation security controls implemented by cloud \nservice providers.\n4. Is there a process defined for handling information \nsecurity incidents that occur in relation to the use of \ncloud services.",
+  "evidence": "1. Review Acquisition Processes for Cloud Services \n2. Assess Use Procedures for Cloud Services SOP\n3. Evaluate Management Practices for Cloud Service Security \n4. Verify Exit Procedures from Cloud Services   \n5. NDA\n6. Vendor Agreement\n7. Cloud Management Policy and procedure"
+ },
+ {
+  "id": "A.5.24",
+  "name": "Information security incident management planning and preparation",
+  "theme": "Organizational Controls",
+  "objective": "The organization shall plan and prepare for managing information security incidents by defining, establishing and communicating information security incident management processes, roles and responsibilities",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess for quick, effective, consistent and orderly \nresponse to information security incidents.\n2. Is there a process for reporting of identified \ninformation security weaknesses.\n3. Is this process communicated to all employees and \ninterested parties as applicable\n4. Are the members of incident management team \nprovided with appropriate training for managing \nincidents.\n5. Is the incident response plan tested on periodic \nbasis.",
+  "evidence": "1. Incident Management Policy / Procedure\n2. Incident tracker\n3. Training and Awareness for Incident management team\n4. Lesson learnt document\n5. Incident management team\n6. Incident response plan (IRP)"
+ },
+ {
+  "id": "A.5.25",
+  "name": "Assessment and decision on information security events",
+  "theme": "Organizational Controls",
+  "objective": "The organization shall assess information security events and decide if they are to be categorized as information security incidents.",
+  "questions": "1. Is there a process to ensure information security \nevents are properly assessed and classified.\n2. Is there a process to categorize and prioritise \nincidents based on the impact.",
+  "evidence": "1. Incident response plan (IRP)\n2. Information security policy (ISP)\n3. Incident Management policy"
+ },
+ {
+  "id": "A.5.26",
+  "name": "Response to information security incidents",
+  "theme": "Organizational Controls",
+  "objective": "Information security incidents shall be responded to in accordance with the documented procedures.",
+  "questions": "1. Is there a process defined for responding to \ninformation security incidents.\n2. Is there documented response timelines for all \ncategories of incidents.\n3. Is there a process to understand and analyse the \nroot cause for the incidents.\n4. Are the actions taken to mitigate the incident \neffective.",
+  "evidence": "1. Information security policy\n2. Incident response plan (IRP)\n3. Incident Management Policy\n4. Incident tracker\n5. Root Cause Analysis document\n6. Actions taken plan"
+ },
+ {
+  "id": "A.5.27",
+  "name": "Learning from information security incidents",
+  "theme": "Organizational Controls",
+  "objective": "Knowledge gained from information security incidents shall be used to strengthen and improve the information security controls",
+  "questions": "1. Is there a process or framework which allows the \norganisation to learn from information security \nincidents and reduce the impact / probability of \nfuture events.\n2. Is there a process to enhance the incident \nmanagement plan including incident scenarios and \nprocedures from the learnings.",
+  "evidence": "1. Incident response plan (IRP)\n2. Incident Tracker\n3. Lesson Learnt\n4. User awareness and training."
+ },
+ {
+  "id": "A.5.28",
+  "name": "Collection of evidence",
+  "theme": "Organizational Controls",
+  "objective": "The organization shall establish and implement procedures for the identification, collection, acquisition and preservation of evidence related to information security events.",
+  "questions": "1. Is there a process in place to ensure a consistent \nand effective management of evidence related to \ninformation security incidents.\n2. In the event of an information security incident is \nrelevant data collected in a manner which allows it to \nbe used as evidence.",
+  "evidence": "1. Information security policy (ISP)\n2. Incident Management Policy\n3. Incident Tracker.\n4. Forensic reports."
+ },
+ {
+  "id": "A.5.29",
+  "name": "Information security during disruption",
+  "theme": "Organizational Controls",
+  "objective": "The organization shall plan how to maintain information security at an appropriate level during disruption.",
+  "questions": "1. Is there a documented policy/procedure describing \nprocess to protect information and other associated \nassets during disruption.\n2. Is there a process to maintain existing information \nsecurity controls during disruption.",
+  "evidence": "1. Business Continuity management policy / procedures\n2. Business Continuity Management Plan (BCP)\n3. Incident Response Plan (IRP)\n4. Business Impact Analysis"
+ },
+ {
+  "id": "A.5.30",
+  "name": "ICT readiness for business continuity",
+  "theme": "Organizational Controls",
+  "objective": "ICT readiness shall be planned, implemented, maintained and tested based on business continuity objectives and ICT continuity requirements.",
+  "questions": "1. Is there a documented policy/procedure to ensure \nthe availability of the organization’s information and \nother associated assets during disruption.\n2. Is information security included in the \norganisation's continuity plans.\n3. Do information processing facilities have sufficient \nredundancy to meet the organisations availability \nrequirements.\n4. Does the organization test its continuity plan on a \nperiodic basis.",
+  "evidence": "1. Business Continuity Plan (BCP)\n2. ICT (Information and Communication Technology) Continuity Plan\n3. Business Continuity Plan Drill Report.\n4. Business Impact Analysis"
+ },
+ {
+  "id": "A.5.31",
+  "name": "Legal, statutory, regulatory and contractual requirements",
+  "theme": "Organizational Controls",
+  "objective": "Legal, statutory, regulatory and contractual requirements relevant to information security and the organization’s approach to meet these requirements shall be identified, documented and kept up to date.",
+  "questions": "1. Is there a process in place to ensure compliance \nwith legal, statutory, regulatory and contractual \nrequirements related to information security.\n2. Are the responsibilities assigned to individuals for \nmanaging legal, statutory, regulatory and contractual \nrequirements related to information security.\n3. Are the actions taken to meet legal, statutory, \nregulatory and contractual requirements related to \ninformation security reviewed to check their \neffectiveness.",
+  "evidence": "1. Legal requirement compliance documents(HIPPA compliance, GDPR, DPDP act etc, which ever is applicable).\n2. Statutory requirement compliance documents\n3. Regulatory compliance documents(PCI-DSS, ISNP, IRDIA, etc whichever is applicable)\n4. Contractual documents like SLA, NDA.\n5. Actions taken to check the effectiveness"
+ },
+ {
+  "id": "A.5.32",
+  "name": "Intellectual property rights",
+  "theme": "Organizational Controls",
+  "objective": "The organization shall implement appropriate procedures to protect intellectual property rights.",
+  "questions": "1. Does the organisation keep a record of all \nintellectual property rights and use of proprietary \nsoftware products.\n2. Does the organisation monitor for the use of \nunlicensed software.\n3. Are processes in place for acquiring software only \nthrough known and reputable sources, to ensure that \ncopyright is not violated.\n4. Are processes in place to ensure that any maximum \nnumber of users permitted within the license is not \nexceeded.",
+  "evidence": "1. Non-Disclosure Agreement (NDA)\n2. Records of Intellectual property rights.\n3. Procurement Policy / procedure.\n4. Approved software list.\n5. Monitoring methods of unlicensed software"
+ },
+ {
+  "id": "A.5.33",
+  "name": "Protection of records",
+  "theme": "Organizational Controls",
+  "objective": "Records shall be protected from loss, destruction, falsification, unauthorized access and unauthorized release.",
+  "questions": "1. Are records protected from loss, destruction, \nfalsification and unauthorized access or release in \naccordance with legislative, regulatory, contractual \nand business requirements.\n2. Are controls on place for storage, handling chain of \ncustody and disposal of records.",
+  "evidence": "1. Data loss prevention (DLP) configuration details\n2. Data Retention Policy\n3. Encryption Certificate\n4. Encryption methods\n5. Access Management Policy\n6. Disposal and Destruction policy\n7. Disposal records\n8. Storing of Assets in unbreakable locker"
+ },
+ {
+  "id": "A.5.34",
+  "name": "Privacy and protection of personal identifiable information (PII)",
+  "theme": "Organizational Controls",
+  "objective": "The organization shall identify and meet the requirements regarding the preservation of privacy and protection of PII according to applicable laws and regulations and contractual requirements.",
+  "questions": "1. Is there a process in place to ensure compliance \nwith legal, statutory, regulatory and contractual \nrequirements related to the information security \naspects of the protection of PII.\n2. Is the process communicated to all relevant \ninterested parties involved in the processing of \npersonally identifiable information.",
+  "evidence": "1. Data Protection and privacy Policy\n2. Communication of policy and procedures\n3. Encryption policy/ procedures."
+ },
+ {
+  "id": "A.5.35",
+  "name": "Independent review of information security",
+  "theme": "Organizational Controls",
+  "objective": "The organization’s approach to managing information security and its implementation including people, processes and technologies shall be reviewed independently at planned intervals, or when significant changes occur.",
+  "questions": "1. Is there a process in place to ensure the continuing \nsuitability, adequacy and effectiveness of the \norganization’s approach to managing information \nsecurity.\n2. Is the organisations approach to managing \ninformation security subject to regular independent \nreview?\n3. Is the implementation of security controls subject \nto regular independent review.",
+  "evidence": "1. Information Security Policy\n2. Internal & External Information Security audit reports"
+ },
+ {
+  "id": "A.5.36",
+  "name": "Compliance with policies, rules and standards for information security",
+  "theme": "Organizational Controls",
+  "objective": "Compliance with the organization’s information security policy, topic-specific policies, rules and standards shall be regularly reviewed.",
+  "questions": "1. Is there a process in place to ensure that \ninformation security is implemented and operated in \naccordance with the organization’s information \nsecurity policy, topic-specific policies, rules and \nstandards.\n2. If a non compliance is identified is there a process \nto identify the causes of the non-compliance, \nimplementing corrective actions and reviewing the \nactions taken to evaluate the effectiveness.",
+  "evidence": "1. Information security policy\n2. Internal & External Information Security audit reports"
+ },
+ {
+  "id": "A.5.37",
+  "name": "Documented operating procedures",
+  "theme": "Organizational Controls",
+  "objective": "Operating procedures for information processing facilities shall be documented and made available to personnel who need them.",
+  "questions": "1. Are operating procedures well documented.\n2. Are the procedures made available to all users who \nneed them. \n3. Does the operating procedures specify \nresponsibilities of individuals.",
+  "evidence": "1. Operating procedures on use case basis. (SOPs) Standards of procedures. (Relevant SOP's)\n2. Communication evidence of SOP with relevant department"
+ },
+ {
+  "id": "A.6.1",
+  "name": "Screening",
+  "theme": "People's Control",
+  "objective": "Background verification checks on all candidates to become personnel shall be carried out prior to joining the organization and on an ongoing basis taking into consideration applicable laws, regulations and ethics and be proportional to the business requirements, the classification of the information to be accessed and the perceived risks.",
+  "questions": "1. Is there a screening process for \nonboarding full-time, part-time and \ntemporary staff.\n2. Are background verification checks \ncarried out on all new candidates for \nemployment?\n3. Does the background verification \nprocess consider checking professional \nexperience, academic qualifications, \nindependent identity verification, \ncriminal records verification and credit \nreview. \n4. Are the checks compliant with \nrelevant laws, regulations and ethics?",
+  "evidence": "1. Human Resource Policy\n2. Background Verfication report of Employee (sample)"
+ },
+ {
+  "id": "A.6.2",
+  "name": "Terms and conditions of employment",
+  "theme": "People's Control",
+  "objective": "The employment contractual agreements shall state the personnel’s and the organization’s responsibilities for information security.",
+  "questions": "1. Is there a formal terms and conditions \nof employment documented and \ncommunicated to all full-time, part_x0002_time and temporary staff before \nonboarding. \n2. Does the terms and conditions of \nemployment include organization’s \ninformation security policy and relevant \ntopic-specific policies.\n3. Does the terms and conditions of \nemployment include legal \nresponsibilities and rights like copyright\nlaws or data protection legislations.\n4. Does the terms and conditions of \nemployment include responsibilities for \nthe handling of information received \nfrom interested parties. \n5. Does the terms and conditions of \nemployment include actions to be \ntaken if personnel disregard the \norganization’s security requirements.",
+  "evidence": "1. Employee Contractual Agreement\n2. Non-Disclosure Agreement ( Signed)"
+ },
+ {
+  "id": "A.6.3",
+  "name": "Information security awareness, education and training",
+  "theme": "People's Control",
+  "objective": "Personnel of the organization and relevant interested parties shall receive appropriate information security awareness, education and training and regular updates of the organization's information security policy, topic-specific policies and procedures, as relevant for their job function.",
+  "questions": "1. Do all employees, contractors and 3rd \nparty users undergo regular security \nawareness training appropriate to their \nrole and function within the \norganisation. \n2. Does the Information security \nawareness program cover information \nsecurity policy and topic-specific \npolicies, standards, laws, statutes, \nregulations, contracts and agreements.\n3. Does the Information security \nawareness program cover personal \naccountability for one’s own actions and \ninactions, and general responsibilities \ntowards securing or protecting \ninformation belonging to the \norganization and interested parties.\n4. Does the organization have a formal \nprocess to access the effectiveness of \nthe information security awareness \nprogram by ensuring that all employees \ntake up quiz.",
+  "evidence": "1. Information Security policy\n2. Information Security Awareness Training Materials\n3. Information Security awareness training attendance of employees, contractors and third party vendors\n4. Quizz report"
+ },
+ {
+  "id": "A.6.4",
+  "name": "Disciplinary process",
+  "theme": "People's Control",
+  "objective": "A disciplinary process shall be formalized and communicated to take actions against personnel and other relevant interested parties who have committed an information security policy violation.",
+  "questions": "1. Is there a formal disciplinary process \nwhich allows the organisation to take \naction against employees who have \ncommitted an information security \nbreach.\n2. Is the formal disciplinary process \napproved by the top management.\n3. Is the formal disciplinary process \ncommunicated to all employees.\n4. Does the formal disciplinary process \ntake into consideration factors such as:\n• The nature (who, what, when, how) \nand gravity of the breach and its \nconsequences\n• Whether the offence was intentional \n(malicious) or unintentional (accidental)\n• whether or not this is a first or \nrepeated offence\n• whether or not the violator was \nproperly trained",
+  "evidence": "1. Disciplinary Policy \n2. Code of Conduct Policy\n3. Communication evidence for both policies with employees"
+ },
+ {
+  "id": "A.6.5",
+  "name": "Responsibilities after termination or change of employment",
+  "theme": "People's Control",
+  "objective": "Information security responsibilities and duties that remain valid after termination or change of employment shall be defined, enforced and communicated to relevant personnel and other interested parties.",
+  "questions": "1. Does the employee termination \nprocess define the information security \nresponsibilities and duties that shall \nremain valid after termination or \nchange of job roles for all full-time, part_x0002_time, and temporary staff.\n2. Are the responsibilities and duties \nthat remain valid after termination of \nemployment or contract included in the \nindividual’s terms and conditions of \nemployment, contract or agreement.",
+  "evidence": "1. HR Policy\n2. Non-Disclosure Agreement\n3. Employee Contractual agreement"
+ },
+ {
+  "id": "A.6.6",
+  "name": "Confidentiality or non-disclosure agreements",
+  "theme": "People's Control",
+  "objective": "Confidentiality or non-disclosure agreements reflecting the organization’s needs for the protection of information shall be identified, documented, regularly reviewed and signed by personnel and other relevant interested parties.",
+  "questions": "1. Are the full-time, part-time and \ntemporary staff required to sign \nconfidentiality or non-disclosure \nagreements prior to being given access \nto organization's confidential \ninformation and other associated assets.\n2. Does the confidentiality or non_x0002_disclosure agreements include:\n• The definition of the information to be \nprotected.\n• Validity of the agreement.\n• The ownership of information, trade \nsecrets and intellectual property.\n• The terms for information to be \nreturned or destroyed at agreement \ntermination.",
+  "evidence": "1) Non-Disclosure Agreements (NDA)  \n2) Employee Contractual agreements"
+ },
+ {
+  "id": "A.6.7",
+  "name": "Remote working",
+  "theme": "People's Control",
+  "objective": "Security measures shall be implemented when personnel are working remotely to protect information accessed, processed or stored outside the organization’s premises.",
+  "questions": "1. Is there a formal policy covering the\ninformation security requirements for \nallowing personnel to work and access \norganization's information remotely.\n2. Is the remote working policy \napproved by the top management.\n3. Is the remote working policy \ncommunicated to all full-time, part_x0002_time and temporary staff who work \nremotely.\n4. Does the remote working policy \nconsider physical security requirements.\n5. Does the remote working policy \nconsider of the remote working site \nsuch as lockable filing cabinets, secure \ntransportation between locations and \nrules for remote access, clear desk, \nprinting and disposal of information.\n6. Does the remote working policy \nconsider the communications security \nrequirements.\n7. Does the remote working policy \nconsider the threat of unauthorized \naccess to information or resources from \nother persons in public places.\n8. Does the remote working policy \nconsider use of security measures, such \nas firewalls and protection against \nmalware.",
+  "evidence": "1. Virtual private network implementation documentation                            \n2. Remote working policies and procedures\n3. Communication evidence of remote working policy with remote working employees\n4. Mobile device management and Teleworking policy\n5. Hardening policy\n6. Antivirus & Anti Malware Policy"
+ },
+ {
+  "id": "A.6.8",
+  "name": "Information security event reporting",
+  "theme": "People's Control",
+  "objective": "The organization shall provide a mechanism for personnel to report observed or suspected information security events through appropriate channels in a timely manner.",
+  "questions": "1. Are all full-time, part-time, and \ntemporary staff made aware of their \nresponsibility to report information \nsecurity events.\n2. Are all full-time, part-time, and \ntemporary staff made aware of the \nprocedure for reporting information \nsecurity.\n3. Are all full-time, part-time and \ntemporary staff made aware of the \ncommunication contact details and \ncommunication medium for reporting \ninformation security events.",
+  "evidence": "1. Incident Reporting procedures   \n2. Incident tracker\n3. Sample Incident reporting mails\n4. Ticketing System/Tool\n5. Incident Management Policy.\n6. Communication evidence of Incident management policy"
+ },
+ {
+  "id": "A.7.1",
+  "name": "Physical security perimeters",
+  "theme": "Physical Controls",
+  "objective": "Security perimeters shall be defined and used to protect areas that contain information and other associated assets.",
+  "questions": "1. Is there a designated security \nperimeter.\n2. Are sensitive or critical information \nareas segregated and appropriately \ncontrolled.\n3. Has the organization implemented \nphysically sound perimeters for a \nbuilding or site containing information \nprocessing facilities.",
+  "evidence": "1. Maintenance or service records of physical security equipments\n2. Physical security measures(fire alarm, extinguishers, smoke detectors, CCTV)                   \n3. Biometric logs & review report                   \n4. Fire and Flood Protection         \n5. Fire Drill report                        \n6. Restricted Areas\n7. Warning signs (restricted area, emergency exit, no smoking)"
+ },
+ {
+  "id": "A.7.2",
+  "name": "Physical entry",
+  "theme": "Physical Controls",
+  "objective": "Secure areas shall be protected by appropriate entry controls and access points.",
+  "questions": "1. Has the organization established a \nformal process for the management of \naccess rights to physical areas.\n2. Does the process include the \nprovisioning, periodical review, update \nand revocation of authorizations for \nphysical access.\n3. is there a process for maintaining and \nmonitoring a physical logbook or \nelectronic audit trail of all physical \naccess.\n4. Are adequate authentication \nmechanisms like access cards, \nbiometrics or two-factor authentication \nsuch as an access card and secret PIN \nimplemented for physical access to \ninformation processing facilities.\n5. Is there a formal process for \nmanaging access to visitors.\n6. Are the visitors given a Visitor Badge \nwhich distinguishes them from the \nemployees.\n7. Are the visitor logs maintained \nincluding the date, time in, time out, \npurpose of visit and personnel \nauthorising the visitor’s entry.\n8. Are the visitors verified for their \nidentity by checking the National ID or \ntheir company ID.\n9. Are the visitors accompanied by \norganization's personal and escorted to \nall places within the organization.\n10. Are the internal and external doors \nof delivery and loading are adequately \nsecured.\n11. Are the incoming deliveries \ninspected and examined for explosives, \nchemicals or other hazardous materials \nbefore they are moved from delivery \nand loading areas.\n12. Are the incoming deliveries \nregistered in accordance with asset \nmanagement procedures.\n13. Are the incoming deliveries \ninspected for tampering or meddling.",
+  "evidence": "1. Physical access policy / procedure\n2. Physical security measures\n3. Biometric logs & review report\n4. Visitor Management Policy     \n5. Visitor ID cards                                                         \n6. Visitor Logs\n7. Sceenshot of CCTV monitoring\n8. Physical access mechanism\n9. Photographs of delivery and loading areas"
+ },
+ {
+  "id": "A.7.3",
+  "name": "Securing offices, rooms and facilities",
+  "theme": "Physical Controls",
+  "objective": "Physical security for offices, rooms and facilities shall be designed and implemented.",
+  "questions": "1. Are the offices, rooms and critical \ninformation processing facilities sited to \nprevent unauthorised access.\n2. Are controls implemented for critical \nprocess facilities to prevent confidential \ninformation or activities from being \nvisible and audible from the outside.",
+  "evidence": "1. Physical access policy / procedure\n2. Physical security measures\n3. Biometric logs & review report\n4. Visitor Management Policy     \n5. Visitor ID cards                                                         \n6. Visitor Logs\n7. Sceenshot of CCTV monitoring\n8. Physical access mechanism\n9. Photographs of delivery and loading areas"
+ },
+ {
+  "id": "A.7.4",
+  "name": "Physical security monitoring",
+  "theme": "Physical Controls",
+  "objective": "Premises shall be continuously monitored for unauthorized physical access.",
+  "questions": "1. Are the organization's physical \npremises monitored by surveillance \nsystems, security guards, or intruder \nalarms.\n2. Are the entry and exit points of \ncritical information processing facilities \nequipped with video monitoring \nsystems.\n3. Is the access to video \nmonitoring/CCTV systems restricted to \nauthorized personnel.\n4. Is the video monitoring/CCTV footage \nretained as per organizations and legal \nrequirements.",
+  "evidence": "1. Physical Access logs\n2. CCTV footage\n3. Visitor logs"
+ },
+ {
+  "id": "A.7.5",
+  "name": "Protecting against physical and environmental threats",
+  "theme": "Physical Controls",
+  "objective": "Protection against physical and environmental threats, such as natural disasters and other intentional or unintentional physical threats to infrastructure shall be designed and implemented.",
+  "questions": "1. Are the critical information processing \nfacilities protected against physical and \nenvironmental threats.\n2. Are adequate controls implemented \nto protect personnel and assets against \nfire, flooding, electrical surging, \nlightning, explosives etc.",
+  "evidence": "1. Physical Environment security policy\n2. Physical security measures\n3. Emergency response plan\n4. Disaster recovery plan\n5. Incident reports"
+ },
+ {
+  "id": "A.7.6",
+  "name": "Working in secure areas",
+  "theme": "Physical Controls",
+  "objective": "Security measures for working in secure areas shall be designed and implemented.",
+  "questions": "1. Are the personnel aware of the \nexistence of the secure areas.\n2. Activities within secure areas \ncommunicated only to authorised \npersonnel on need-to-know basis.\n3. Are the secure areas periodically \ninspected to identify any vacant areas.\n4. Are controls in place to restrict \nphotographic, video, audio or other \nrecording equipment, such as cameras \nin user endpoint devices, unless \nauthorized within secure areas.",
+  "evidence": "1. Access management mechanism to secure areas.\n2. CCTV footage\n3. Biometric access records\n4. Prohibited Indicaters/Posters."
+ },
+ {
+  "id": "A.7.7",
+  "name": "Clear desk and clear screen",
+  "theme": "Physical Controls",
+  "objective": "Clear desk rules for papers and removable storage media and clear screen rules for information processing facilities shall be defined and appropriately enforced.",
+  "questions": "1. has the organization defined a formal \nclear desk and clear screen policy.\n2. Is the clear desk and clear screen \npolicy approved by the top \nmanagement.\n3. Is the clear desk and clear screen \npolicy communicated to all full-time, \npart-time and temporary staff.\n4. Does the clear desk and clear screen \npolicy include the requirements for \nprotecting user endpoint devices by key \nlocks or other security means when not \nin use or unattended.\n5. Does the clear desk and clear screen \npolicy include the requirements for \nconfiguring user endpoint devices with \na secure screen saver after certain \nperiod of inactivity.\n6. Does the clear desk and clear screen policy include the requirements for the \nuse of printers with an authentication \nfunction.\n7. Does the clear desk and clear screen \npolicy include the requirements for \nsecurely storing documents and \nremovable storage media containing \nsensitive information.\n8. Does the clear desk and clear screen \npolicy include the requirements for \nclearing sensitive or critical information \non whiteboards and other types of \ndisplay when no longer required.",
+  "evidence": "1. Clear desk and clear screen Policy.\n2. Communication evidence of policy\n3. Screensaver configuration Snapshot.\n4. Photograph of sample desktops"
+ },
+ {
+  "id": "A.7.8",
+  "name": "Equipment siting and protection",
+  "theme": "Physical Controls",
+  "objective": "Equipment shall be sited securely and protected.",
+  "questions": "1. Are the equipments handling \nsensitive data situated adequately to \nreduce the risk of information being \nviewed by unauthorized persons during \ntheir use.\n2. Are the equipments situated \nadequately to protect against physical \nand environmental threats.\n3. Has the organization established \nguidelines for eating, drinking, and \nsmoking in proximity to information \nprocessing facilities.\n4. Are controls in place for monitoring \nenvironmental conditions, such as \ntemperature and humidity of the \nsurroundings.",
+  "evidence": "1. Photograph of CCTV devices\n2. Equipment Inventory list\n3. Tamper-evident seals\n4. Asset tagging"
+ },
+ {
+  "id": "A.7.9",
+  "name": "Security of assets off-premises",
+  "theme": "Physical Controls",
+  "objective": "Off-site assets shall be protected.",
+  "questions": "1. Has the organization defined a formal \nprocess for the protection of devices \nwhich store or process information \noutside the organization’s premises.\n2. Are the personnel made aware of \nguidelines for handling organization's \nassets off-premises.\n3. Are logs maintained for tracking \nequipments taken outside the \norganization.\n4. Are controls implemented to track \nlocation of the assets and remote \nwiping of devices.",
+  "evidence": "1. Teleworking policy\n2. Access control logs\n3. Equipment Inventory list\n4. Asset tagging\n5. Tracker of Assets taken off-site\n6. MDM solution"
+ },
+ {
+  "id": "A.7.10",
+  "name": "Storage media",
+  "theme": "Physical Controls",
+  "objective": "Storage media shall be managed through their life cycle of acquisition, use, transportation and disposal in accordance with the organization’s classification scheme and handling requirements",
+  "questions": "1. Has the organization defined a formal \nprocess for managing removable \nstorage media.\n2. Is the removable media policy \napproved by the top management.\n3. Is the removable media policy \ncommunicated to all full-time, part_x0002_time and temporary staff.\n4. Does the removable storage media \npolicy consider requirements for \nrestricting the use of removable storage \nmedia only to authorised personnel on \nneed to have basis.\n5. Does the removable storage media \npolicy consider requirements for \nmanaging an inventory of removable \nstorage media.\n6. Does the removable storage media \npolicy consider requirements for \nmaintaining audit logs for taking \nremovable storage media outside the \norganization. \n7. Does the removable storage media \npolicy consider requirements for storing \nthe removable storage media with \nadequate protection.\n8. Does the removable storage media \npolicy consider requirements for using \ncryptographic techniques for \nsecuring/protecting data within \nremovable storage media.\n9. Does the removable storage media \npolicy consider requirements for \nenabling USB or SD card slots only on \nsystem with need to have basis.",
+  "evidence": "1. Capacity management policy\n2. Sampling of storage media\n3. Disposal methods                                                                                                \n4. Labeling Records\n5. Removable Media policy\n6. Communication evidence of Removable media policy\n7. Removable Media Inventory\n8. Screenshot of USB Disabled"
+ },
+ {
+  "id": "A.7.11",
+  "name": "Supporting utilities",
+  "theme": "Physical Controls",
+  "objective": "Information processing facilities shall be protected from power failures and other disruptions caused by failures in supporting utilities.",
+  "questions": "1. Are the equipments supporting the \nutilities is configured, operated and \nmaintained in accordance with the \nrelevant manufacturer’s specifications.\n2. Is there a process to manage the \ncapacity requirements of supporting \nutilities.\n3. Are the equipments supporting the \nutilities is inspected and tested \nregularly to ensure their proper \nfunctioning.\n4. Are the emergency switches and \nvalves to cut off power, water, gas or \nother utilities implemented.\n5. Does the organization have adequate \nemergency lighting and \ncommunications.",
+  "evidence": "1. BCP (Business Continuity Plan)\n2. Generators\n3. UPS (Uninterruptable power supply)\n4. Maintenance report of UPS\n5. Capacity Management policy"
+ },
+ {
+  "id": "A.7.12",
+  "name": "Cabling security",
+  "theme": "Physical Controls",
+  "objective": "Cables carrying power, data or supporting information services shall be protected from interception, interference or damage.",
+  "questions": "1. Are the power and \ntelecommunications lines into \ninformation processing facilities fed \nunderground wherever possible or \nequipped with adequate protection like \nfloor cable protector or utility poles.\n2. Are the power and \ntelecommunication cables separated to \nprevent interference.\n3. Are the cables labelled at each end \nwith sufficient source and destination \ndetails to enable the physical \nidentification and inspection of the \ncable.",
+  "evidence": "1. Cable labeling.\n2. Segregation of  communication wires and power wires"
+ },
+ {
+  "id": "A.7.13",
+  "name": "Equipment maintenance",
+  "theme": "Physical Controls",
+  "objective": "Equipment shall be maintained correctly to ensure availability, integrity and confidentiality of information.",
+  "questions": "1. Are the equipments maintained in \naccordance with the supplier’s \nrecommended service frequency and \nspecifications.\n2. Does the organization ensure only \nauthorized maintenance personnel \ncarrying out repairs and maintenance \non equipment.\n3. Is there a process to supervise \nmaintenance personnel when carrying \nout maintenance on site.\n4. Is there a process for authorizing and \ncontrolling access for remote \nmaintenance.\n5. Is there a process for inspecting the \nequipments before putting the back \ninto operation after maintenance, to \nensure that the equipment has not \nbeen tampered with and is functioning \nproperly.",
+  "evidence": "1. CIA Report of information \n2. Equipment Maintenance reports\n3. Maintanance report of equipment\n4. Service History"
+ },
+ {
+  "id": "A.7.14",
+  "name": "Secure disposal or re-use of equipment",
+  "theme": "Physical Controls",
+  "objective": "Items of equipment containing storage media shall be verified to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use",
+  "questions": "1. Has the organization defined a formal \nprocess for secure disposal and reuse of \nequipments/assets.\n2. Does the organization ensure to \nphysically destroy or erase the data in \nstorage devices before disposal.\n3. Does the organization ensure to \nremove labels and markings identifying \nthe organization or indicating the \nclassification, owner, system or network \nbefore disposal.",
+  "evidence": "1. Disposal and Destruction Policy\n2. Sample of disposal \n3. Disposal Reports   \n4. Disposal tracker"
+ },
+ {
+  "id": "A.8.1",
+  "name": "User end point devices",
+  "theme": "Technological Controls",
+  "objective": "Information stored on, processed by or accessible via user end point devices shall be protected.",
+  "questions": "1.Whether a mobile device policy exists and is approved?\n2. Inventory details of the mobile devices registered\n3.Whether policy document address additonal risk \nof using mobile devices (eg.Thef of devices, use of \nopen Wi-Fi hotspots?\n4.Whether organisaton have access control and malware protecton in place for mobile devices?\n5. Does organisaton take regular backup of mobile \ndevices?\n6. Is there a process for registraton of user endpoint devices?\n7. Is there any restricton of sofware installaton on user endpoint devices?\n8. Is there any remote disabling, deleton or lockout controls implemented on user endpoint devices?\n9. Are the USB ports disabled on user endpoint devices?",
+  "evidence": "1. Mobile Device Mangement policy/ procedure\n2. BYOD policy\n3. MDM Solution\n4. Inventory of Registered mobile devices\n5. Antivirus Details\n6. Backup policy\n7. Backup reports\n8. Restoration reports\n9. Screenshot of restriciton of software installation\n10. Sceenshot of USB Disabled"
+ },
+ {
+  "id": "A.8.2",
+  "name": "Privileged access rights",
+  "theme": "Technological Controls",
+  "objective": "The allocation and use of privileged access rights shall be restricted and managed.",
+  "questions": "1. What are the criteria that your organisaton has planned for a user to be assigned access privileges?\n2. How your authorise and record access privileges and maintain them?\n3. Whether there is an access control policy?\n4. How organisaton notfy their employees about their assigned privileged access?\n5. Procedure in place for preventng unauthorised use of generic ID\n6.Whether organisaton defned the conditons of expiry for privilege access?\n7. Is there a process to review the privilege access rights assigned to users?\n8. How ofen are the access review performed?",
+  "evidence": "1. Access Control Policy\n2. Access Management solution\n3. Normal and privileged user access list\n4. Access review reports"
+ },
+ {
+  "id": "A.8.3",
+  "name": "Information access restriction",
+  "theme": "Technological Controls",
+  "objective": "Access to information and other associated assets shall be restricted in accordance with the established topic-specific policy on access control.",
+  "questions": "1.Do you ensure that sensitve informaton is kept confdental, and no unauthorised identtes have access to that informaton?\n2. Whether organisaton has a defned, maintained and controlled what data can be accessed by whom?\n3. Does the organisaton control which identified will have which access (Read,write,delete,execute)\n4.Wheteher the organisaton provide physical/logical access control for isolatng sensitve systems, applicaton and data?",
+  "evidence": "1. Access Control Policy\n2. Information handling procedures\n3. Normal and privileged user access list\n4. Segregation of Sensitive system, application and data"
+ },
+ {
+  "id": "A.8.4",
+  "name": "Access to source code",
+  "theme": "Technological Controls",
+  "objective": "Read and write access to source code, development tools and software libraries shall be appropriately managed.",
+  "questions": "1.Whether the organisaton manages the access to program source code and its libraries according to established procedures.\n2. Whether grantng and revoking of read/ write access is on need basis?\n3. Does your organisaton assure that the developers have source code access only through developer tools which has proper authorisaton?\n4. Does you organisaton maintain the audit log of all accesses and all changes done to source code?",
+  "evidence": "1. Source Code Review Report\n2. Audit Log.\n3. Developer tool.\n4. Mail trail of granting and revoking access to source code."
+ },
+ {
+  "id": "A.8.5",
+  "name": "Secure authentication",
+  "theme": "Technological Controls",
+  "objective": "Secure authentication technologies and procedures shall be implemented based on information access restrictions and the topic-specific policy on access control.",
+  "questions": "1.Does your organisaton test that no confdental informaton is displayed before log on process has successfully completed?\n2. Whether your organisaton display generic notces /warnings that systems should be accessed by authorised users only?\n3. Whether there is a defned limit on unsuccessful login atempts?\n4. Whether a procedure defned for raising a security issue?\n5. whether passwords are masked?\n6. Whether the passwords are encrypted before transmission?\n7. Whether a session tme out is in place to logout the inactve sessions?\n8. Are the users mandated to change passwords upon frst login?\n9. Are the default vendor accounts and passwords changed?",
+  "evidence": "1. Access Control Policy\n2. Multi Factor Authentication\n3. Access Management solution\n4. Account lockout policy\n5. Screenshot of account lockout configuration\n6. Screenshot session timeout configuration"
+ },
+ {
+  "id": "A.8.6",
+  "name": "Capacity management",
+  "theme": "Technological Controls",
+  "objective": "The use of resources shall be monitored and adjusted in line with current and expected capacity requirements.",
+  "questions": "1. Is there a process to manage capacity requirements of all systems based on the business process and critcality of the process.\n2. Is there a process to identfy expected capacity requirements for the future.\n3. Are there any detectve controls implemented to indicate problems and notfy administrators.\n4. Whether the organisaton follows the retention practices and remove absolute data?",
+  "evidence": "1. Capacity Management Policy\n2. Segregation of sensitive system, application and data\n3. Antivirus alert configuration details"
+ },
+ {
+  "id": "A.8.7",
+  "name": "Protection against malware",
+  "theme": "Technological Controls",
+  "objective": "Protection against malware shall be implemented and supported by appropriate user awareness.",
+  "questions": "1.Whether your organisaton created a formal policy for managing Malware?\n2. Is the Antmalware soluton implemented on all systems?\n3. Is the antmalware soluton confgured to perform periodic scans?\n4. Is the antmalware soluton confgured to get signature updates on regular basis?\n5. Is the antmalware soluton confgured to send alerts to system administrators upon identfying malware?\n6. Is there a process in place for detectng malicious websites?",
+  "evidence": "1. Antivirus & Antimalware policy\n2. Anti malware solution details\n3. Training on Protection against Malware\n4. Antivirus and Anti malware logs\n5. Whitelisted websites"
+ },
+ {
+  "id": "A.8.8",
+  "name": "Management of technical vulnerabilities",
+  "theme": "Technological Controls",
+  "objective": "Information about technical vulnerabilities of information systems in use shall be obtained, the organization’s exposure to such vulnerabilities shall be evaluated and appropriate measures shall be taken.",
+  "questions": "1. Are the Roles and responsibilites pertaining to vulnerability monitoring, vulnerability risk assessment, patching defned?\n2. Is the scope and frequency of technical vulnerability assessments defned?\n3. Is there a process to rate the vulnerabilites as Critcal, High, Medium and Low?\n4. Are the remediaton tmelines defned as per the vulnerability ratngs?\n5. Is there a formal process to install patches for remediatng vulnerabilites?\n6. Are we testng and evaluatng the patches before they are installed?",
+  "evidence": "1. Vulnerability report and closure report for applications and network \n2. Patch Management policy\n3. Patch tracker\n4. Roll back plan"
+ },
+ {
+  "id": "A.8.9",
+  "name": "Configuration management",
+  "theme": "Technological Controls",
+  "objective": "Configurations, including security configurations, of hardware, software, services and networks shall be established, documented, implemented, monitored and reviewed.",
+  "questions": "1. Whether your organisaton has a policy and procedure in place for documentng the confguratons of hardware, sofware and network devices?\n2. Is there a proper role and ownership assigned to individuals for managing confguraton on device?\n3. Whether organisaton follows a standardised template for hardening hardware's and sofwares?\n4. Does organisaton have appropriate mechanism in place to review system, hardware updates at regular intervals and any current security threats to ensure optmal performance?",
+  "evidence": "1. Information Security Policy {Hardening policy, Configuration Policy (Network and Application), Encryption policy, Network security policy, Password policy, Logs and monitoring policy, Data backup and retention policy (for logs).}\n2. Configuration documentation for hardware, Software and network assets.\n3. Authorized Software list.\n4. Threat Intelligence tool"
+ },
+ {
+  "id": "A.8.10",
+  "name": "Information Deletion",
+  "theme": "Technological Controls",
+  "objective": "Information stored in information systems, devices or in any other storage media shall be deleted when no longer required.",
+  "questions": "1. Does your organisaton have policy that covers maintenance actvites related to deleton and destructon of data and or IT assets including the utlisaton of specialised sofware and liaison with vendors specialising in data and device deleton?\n2. Whether organisaton regularly identfes data which is no longer in use and needs to be removed to prevent from unauthorised access or misuse?\n3. When employing specialised deleton vendor, whether sufcient evidence is obtained (via documentaton) that the deleton has been performed?",
+  "evidence": "1. Data retention policy.\n2. Sample on use case basis.\n3. Screenshots of Data retention configuration."
+ },
+ {
+  "id": "A.8.11",
+  "name": "Data Masking",
+  "theme": "Technological Controls",
+  "objective": "Data masking shall be used in accordance with the organization’s topic-specific policy on access control and other related topic-specific policies, and business requirements, taking applicable legislation into consideration.",
+  "questions": "1.Whether the organisaton has a policy and procedure in place to ensure anonymizaton or pseudonymizaton of data for protecton of data as per legal and regulatory requirements?\n2. Process in place to discover how masked data is accessed?\n3. Whether data masking policy and procedure includes following requirements?\n-Implement masking techniques to expose only the lowest possible amount of data those who use it\n-At the request of the subject, certain data may be hidden and staf access to relevant sectons is restricted to only certain members.\n-Constructng their data masking procedure in accordance with legal and regulatory requirements.\n-Pseudonymizaton requires use of an algorithm to unmask data and this must be kept secure",
+  "evidence": "1. Encryption policy\n2. Encryption algorithm\n3. SSL certificate\n4. Screenshots of scripts or software used for data masking."
+ },
+ {
+  "id": "A.8.12",
+  "name": "Data Leakage Prevention",
+  "theme": "Technological Controls",
+  "objective": "Data leakage prevention measures shall be applied to systems, networks and any other devices that process, store or transmit sensitive information.",
+  "questions": "1. Has the organisaton defned a procedure in place to reduce the risks of data leakage from emails, inward outward fle transfer and USB devices?\n2. Has the organisaton established proper measures to ensure data is organised according to industry standards to assign diferent levels of risk?\n3. Has organisaton setup proper authorisaton methods?\n4. Whether the data in back up and all sensitve data is encrypted?\n5. Whether organisaton has implemented gateway security and leakage retenton measures to protect against external infuences?\n6. Has the organizaton identfed monitoring channels for identfying data leakage?",
+  "evidence": "1. Data Leakage prevention policy.\n2. Data Leakage Prevention tool configuration details"
+ },
+ {
+  "id": "A.8.13",
+  "name": "Information Backup",
+  "theme": "Technological Controls",
+  "objective": "Backup copies of information, software and systems shall be maintained and regularly tested in accordance with the agreed topic-specific policy on backup.",
+  "questions": "1. Has organisaton got approved policy and procedure for managing backup of data on devices, storage media, cloud, DB and servers?\n2. How ofen the servers and confguraton data are getng backed up ?\n3.Whether the backed up data are restored and checked at regular intervals. \n4. Whether the results of restoratons are recorded?\n5. Whether backup plan is updated on regular basis?\n6. Has the organizaton defned the backup restoraton testng frequency?",
+  "evidence": "1. Backup and retention policy.\n2. Data recovery drills documentation.\n3. Data Centre, Disaster recovery location.\n4. Backup plan\n5. Restoration frequency and reports"
+ },
+ {
+  "id": "A.8.14",
+  "name": "Redundancy of information processing facilities",
+  "theme": "Technological Controls",
+  "objective": "Information processing facilities shall be implemented with redundancy sufficient to meet availability requirements.",
+  "questions": "1.Has the organisaton have a policy and procedure in place to ensure data processed through any ICT technology, physical facility, sofware is duplicated to ensure availability in event of disrupton?\n2.Has organisaton considered geographically disparate locatons when outsourcing data services (fle storage/data centre amenites)\n3.Whether redundancy is in place for all systems to ensure availability of informaton processing facility?",
+  "evidence": "1. Information Security policy\n2. System architecture diagrams \nshowing redundant components \n(e.g., servers, firewalls, network \nconnections)\n3. Service Level Agreements (SLAs)\n4. DC and DR location\n5. Audit reports of Data centre"
+ },
+ {
+  "id": "A.8.15",
+  "name": "Logging",
+  "theme": "Technological Controls",
+  "objective": "Logs that record activities, exceptions, faults and other relevant event shall be produced, stored, protected and analysed.",
+  "questions": "1. Do you have a process to review security audit logs in tmely and act upon threats ?\n2.Are appropriate event logs maintained and regularly reviewed?\n3.Whether logging facilites protected against tampering and unauthorised access?\n4.Whether system admin /operator actvites logged and reviewed regularly?\n5.Whether NTP services are deployed and systems are synced with the NTP services\n6.Whether log archives are maintained ?\n7.How log collecton and aggregatng from diferent network ,security , servers , DB, Identity systems and applicatons is managed?",
+  "evidence": "1. Logging and monitoring policy / procedure\n2. SIEM tool details\n3. Sample event logs\n4. NTP server details\n4. Log archives"
+ },
+ {
+  "id": "A.8.16",
+  "name": "Monitoring activities",
+  "theme": "Technological Controls",
+  "objective": "Networks, systems and applications shall be monitored for anomalous behaviour and appropriate actions taken to evaluate potential information security incidents.",
+  "questions": "1. Whether company has a policy and procedure in place to suspect events which should be reported to relevant personnel in order to maintain the network integrity and improve business contnuity\n2. Has the organizaton established a baseline for normal working conditons to identfy anomalies in the network?",
+  "evidence": "1. Logging and monitoring policy / procedure\n2. Threat Intelligence policy"
+ },
+ {
+  "id": "A.8.17",
+  "name": "Clock synchronization",
+  "theme": "Technological Controls",
+  "objective": "The clocks of information processing systems used by the organization shall be synchronized to approved time sources.",
+  "questions": "1. Has the organizaton identfed reputed time source? \n2. Whether all devices are in sync with this NTP server hosted in organisaton\n3. Is there a process to restrict access to tme data in the organizaton?\n4. Is there a process to identfy and monitor all changes to NTP systems?",
+  "evidence": "1. NTP server configuration details"
+ },
+ {
+  "id": "A.8.18",
+  "name": "Use of privileged utility programs",
+  "theme": "Technological Controls",
+  "objective": "The use of utility programs that can be capable of overriding system and application controls shall be restricted and tightly controlled.",
+  "questions": "1.Whether organisaton has defned list of utlity programs?\n2. Does organisaton has procedure in place to identfy, authorise and authentcate using utlity programs?\n3.Whether ad hoc utlity programs ae used? If yes, the approval process for the same.\n4. Details of logging for utlity program",
+  "evidence": "1. List of utility programs and procedure\n2. Details of logging for utlity program"
+ },
+ {
+  "id": "A.8.19",
+  "name": "Installation of software on operational systems",
+  "theme": "Technological Controls",
+  "objective": "Procedures and measures shall be implemented to securely manage software installation on operational systems.",
+  "questions": "1.Policy and procedure in place for sofware installation and to upgrade existng sofware’s\n2.List of whitelisted sofware approved by management to be used in organisaton\n3.Audit logs maintained for changes carried out?\n4. Change management procedure, policy for installing/upgrading new sofware’s\n5.Sample change management tckets raised for such installaton and upgradaton of sofware’s",
+  "evidence": "1. Documented software installation \nprocedures.\n2. List of whitelisted sites.\n3. Change management policy / procedure for software\n4. Change management form\n5. Change managament ticket ( sample)"
+ },
+ {
+  "id": "A.8.20",
+  "name": "Networks security",
+  "theme": "Technological Controls",
+  "objective": "Networks and network devices shall be secured, managed and controlled to protect information in systems and applications.",
+  "questions": "1.Does the organisaton have a approved copy of the network diagram?\n2.Network asset inventory for the organisaton?\n3.Whether logging and monitoring of network equipment’s in place?\n4.Details of network confguraton fles storage and their backup?\n5. What is the encrypton controls deployed for data in transit? \n6.Is there a Procedure in place for authenticating network devices?",
+  "evidence": "1. Network Architecture Diagram\n2. Network Asset Inventory\n3. Encryption algorithm for data at rest and data in transit\n4. Authentication mechanism for network"
+ },
+ {
+  "id": "A.8.21",
+  "name": "Security of network services",
+  "theme": "Technological Controls",
+  "objective": "Security mechanisms, service levels and service requirements of network services shall be identified, implemented and monitored.",
+  "questions": "1. Policy and procedure in place for network security management?\n2.Procdeure for updatng the OS patches, NW OS?\n3.Details of approved individuals who can make changes to network ?\n4. Details of SIEM,DLP.SOAR,IDS,IPS implemented?\n5. Is there a procedure in place to access network devices?",
+  "evidence": "1. Network Security policy\n2. Patch Management policy\n3. Details of SIEM, DLP, IDS, IPS\n4. Access Management policy for network devices"
+ },
+ {
+  "id": "A.8.22",
+  "name": "Segregation of networks",
+  "theme": "Technological Controls",
+  "objective": "Groups of information services, users and information systems shall be segregated in the organization’s networks.",
+  "questions": "1. What security controls are implemented to ensure Segregaton of access for producton, testing and development environment?\n2. How is the network segmented and how is the access monitored to diferent segments of network?",
+  "evidence": "1. Network Architecture Diagram\n2. Server Details"
+ },
+ {
+  "id": "A.8.23",
+  "name": "Web filtering",
+  "theme": "Technological Controls",
+  "objective": "Access to external websites shall be managed to reduce exposure to malicious content.",
+  "questions": "1. Are the Web fltering rules implemented to permit access to specifc websites only?\n2.Whether there is an approved list of high risk website/content category\n3. are the controls implemented to block malicious content from being downloaded(Eg.Web proxy, email gateway, ant phishing module, EDR ?",
+  "evidence": "1. Web filtering solution configuration and Screenshots.\n2. Antivirus configured to block malicious \ncontent from being downloaded\n3. Approved whitelisted sites."
+ },
+ {
+  "id": "A.8.24",
+  "name": "Use of cryptography",
+  "theme": "Technological Controls",
+  "objective": "Rules for the effective use of cryptography, including cryptographic key management, shall be defined and implemented.",
+  "questions": "1. Has organisaton got an cryptography policy in place?\n2. How are the cryptographic keys accessed, stored and safeguarded?\n3. Is the Inventory of cryptography keys and certfcates used maintained?\n4. Is there a process defned to decide the encrypton key strength and encrypton algorithm?\n5. Is the crypto period defned for all encrypton keys?",
+  "evidence": "1. Cryptographic policy\n2. Cryptographic keys and certificates \n3. Encryption key strength and algorithm"
+ },
+ {
+  "id": "A.8.25",
+  "name": "Secure development life cycle",
+  "theme": "Technological Controls",
+  "objective": "Rules for the secure development of software and systems shall be established and applied.",
+  "questions": "1. Does the organizaton have a Secure applicaton development policy?\n2. Are security requirements considered in all phases of development?\n3. Is there any secure coding guidelines used for development?\n4. Does the organizaton have secure source code repositories?\n5. Does the organizaton maintain version controlling on source code?",
+  "evidence": "1. SDLC ( Software Development Life Cycle ) policy & procedures\n2. Secure Coding guidelines\n3. Source code review report"
+ },
+ {
+  "id": "A.8.26",
+  "name": "Application security requirements",
+  "theme": "Technological Controls",
+  "objective": "Information security requirements shall be identified, specified and approved when developing or acquiring applications.",
+  "questions": "1. Is there a process to ensure identfy all informaton security requirements when developing or acquiring applicatons?\n2. Are the legal, statutory and regulatory requirements considered during applicaton development\n3. Are the privacy requirements considered during applicaton development?",
+  "evidence": "1. Procurement policy"
+ },
+ {
+  "id": "A.8.27",
+  "name": "Secure system architecture and engineering principles",
+  "theme": "Technological Controls",
+  "objective": "Principles for engineering secure systems shall be established, documented, maintained and applied to any information system development activities.",
+  "questions": "1.Documented standards, evidence for engineering secure system and system architecture\n2. Whether Secure Engineering guidelines include the following\n-Methods of user authentcaton\n-Secure session control guidance\n-Procedure for sanitsing and validatng data\n-Security measures for protectng informaton assets and systems against known threats\n-Security measures analysed for their ability to identfy, eliminate and respond to security threats\n-How and where the security measures will be implemented\n3. Procedure in place for validatng the practses, standards of service provider/third partes so they are in line with secure engineering protocols",
+  "evidence": "1. System Architecture diagram\n2. Secure Coding guidelines"
+ },
+ {
+  "id": "A.8.28",
+  "name": "Secure coding",
+  "theme": "Technological Controls",
+  "objective": "Secure coding principles shall be applied to software development.",
+  "questions": "1. Details of Secure Development policy and procedures\n2. Threat and vulnerability process\n3.Tools for secure code development if any \n4.Reports on Secure code review, SAST,DAST\n5.Whether development team is regularly trained on real world threats\n6.Whether secure coding takes into account following points\n-Details on atack surface\n- OWASP Top 10 Vulnerabilites",
+  "evidence": "1. Secure Development policy and \nprocedures                                       \n2. Threat and vulnerability process                                                                                                                                                         \n3. Training and awarness programs to development team\n4. Attendance and quizz report of the awareness program\n5. Reports on Secure code review, SAST,DAST"
+ },
+ {
+  "id": "A.8.29",
+  "name": "Security testing in development and acceptance",
+  "theme": "Technological Controls",
+  "objective": "Security testing processes shall be defined and implemented in the development life cycle.",
+  "questions": "1.Whether user authentcaton, access restrictons \nand use of cryptographic techniques tested?\n2.Whether organisaton tests the secure confgs of \nOS , frewalls and other components\n3.Whether the organisaton has a test plan defned, \ndocumented and implemented?\n4. Whether organizaton carriers out VA , if yes the \nfrequency and reports of the same\n5. Whether organisaton conducts PT, if yes the \nfrequency and the reports of the same\n6.Whether organisaton tests their DB for their \nsecurity",
+  "evidence": "1. VAPT reports\n2. Infra PT reports\n3. Patch management policy\n4. Roll back plan"
+ },
+ {
+  "id": "A.8.30",
+  "name": "Outsourced development",
+  "theme": "Technological Controls",
+  "objective": "The organization shall direct, monitor and review the activities related to outsourced system development",
+  "questions": "1.Whether licensing , code ownership and IPR related to outsourced development in place?\n2.Does organisaton have contractual requirements for secure design, coding and testng practses\n3.Whether provision for threat modelling considered by external developers?\n4.Whether UAT is done and approved\n5.Details of sofware ESCROW in place\n6. Details of organisaton conductng an audit on third party in place?",
+  "evidence": "1. Copyrights of application\n2. Secure coding and testing guidelines\n3. Details of sofware ESCROW\n4. SAST and DAST reports\n5. External Audit report"
+ },
+ {
+  "id": "A.8.31",
+  "name": "Separation of development, test and production environments",
+  "theme": "Technological Controls",
+  "objective": "Development, testing and production environments shall be separated and secured",
+  "questions": "1. Whether organisaton has segregated environment for applicaton (Development, test and producton)\n2.Access control list for each environment and review of the same.\n3.Privilege user access management process in place\n4.Patch, Backup management process in place\n5.VAPT detailed reports \n6.Details of web applicaton security",
+  "evidence": "1. Network Architecture diagram\n2. Access control list\n3. Access Management policy\n4. Normal and privileged user list\n5. Backup policy and procedure\n6. WAF details\n7. VAPT reports\n8. Patch Management policy"
+ },
+ {
+  "id": "A.8.32",
+  "name": "Change management",
+  "theme": "Technological Controls",
+  "objective": "Changes to information processing facilities and information systems shall be subject to change management procedures.",
+  "questions": "1. Whether organisaton has a change management policy and procedure?\n2. Is there a formal change request process?\n3. Are the change Impact assessment, testng and roll back plan defned for all changes?\n4. Are the changes approved before implementaton?\n5. Is there a process to manage emergency changes?",
+  "evidence": "1. Change management policy / Procedure\n2. Change Request form\n3. Change tracker\n4. Roll back plan"
+ },
+ {
+  "id": "A.8.33",
+  "name": "Test information",
+  "theme": "Technological Controls",
+  "objective": "Test information shall be appropriately selected, protected and managed.",
+  "questions": "1.Whether organisaton applies same access control procedures to test and producton environments?\n2.Details of approval if prod data is coped to testng environment?\n3.Sample of data used in testng, development and producton environment?\n4.Does organisaton have defned the data management process and guidelines in place",
+  "evidence": "1. Access logs or audit trails                                                                                     \n2. Awarnesss and training\n3. Sample of data used in testing,development and production environment."
+ },
+ {
+  "id": "A.8.34",
+  "name": "Protection of information systems during audit test",
+  "theme": "Technological Controls",
+  "objective": "Audit tests and other assurance activities involving assessment of operational systems shall be planned and agreed between the tester and appropriate management.",
+  "questions": "1.Whether organisaton has a system audit and assurance plan?\n2.List of all privacy laws and regulatons\n3. Details of the audit calendar and recent audit reports\n4. Procedure in place for protectng the PII data\n5. User awareness records of personal involving system operatons",
+  "evidence": "1. System Audit report\n2. Assurance plan\n3. List of all privacy laws and regulatons\n4. Encryption policy"
+ }
+]

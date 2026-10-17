@@ -1,6 +1,7 @@
 import json
 import os
 import re
+from pathlib import Path
 from io import BytesIO
 
 import pandas as pd
@@ -13,15 +14,7 @@ GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:g
 
 st.set_page_config(page_title="EvidenceLens AI", page_icon="🛡️", layout="wide")
 
-CONTROLS = [
-    {"id": "A.5.15", "name": "Access control", "intent": "Rules to control physical and logical access to information and associated assets."},
-    {"id": "A.5.16", "name": "Identity management", "intent": "Manage the full lifecycle of identities."},
-    {"id": "A.5.18", "name": "Access rights", "intent": "Provision, review, modify and remove access rights in accordance with access-control policy and rules."},
-    {"id": "A.8.2", "name": "Privileged access rights", "intent": "Restrict and manage allocation and use of privileged access rights."},
-    {"id": "A.8.3", "name": "Information access restriction", "intent": "Restrict access to information and other associated assets in accordance with access-control policy."},
-    {"id": "A.8.15", "name": "Logging", "intent": "Produce, store, protect and analyse logs of relevant activities, exceptions, faults and other events."},
-    {"id": "A.8.16", "name": "Monitoring activities", "intent": "Monitor networks, systems and applications for anomalous behaviour and take appropriate actions."},
-]
+CONTROLS = json.loads((Path(__file__).parent / "controls.json").read_text(encoding="utf-8"))
 
 def extract_text(uploaded):
     name = uploaded.name.lower()
@@ -37,8 +30,8 @@ def extract_text(uploaded):
         return raw.decode("utf-8", errors="replace")
     raise ValueError("For this prototype, upload a PDF, TXT, MD, or CSV file.")
 
-def call_cloud_model(evidence_text):
-    control_text = json.dumps(CONTROLS, ensure_ascii=False)
+def call_cloud_model(evidence_text, controls):
+    control_text = json.dumps([{"id": c["id"], "name": c["name"], "objective": c["objective"], "gap_questions": c["questions"], "expected_evidence": c["evidence"]} for c in controls], ensure_ascii=False)
     prompt = f"""
 You are EvidenceLens AI, an audit-assistance prototype. Analyze the supplied evidence conservatively.
 Do not claim certification or definitive compliance. Mention that document text alone cannot prove a control is operating.
@@ -51,7 +44,7 @@ Return valid JSON only, using this schema:
     {{
       "control_id": "one supplied ID",
       "control_name": "exact supplied name",
-      "status": "Potentially supported | Evidence gap | Needs human review",
+      "status": "Supported | Partially Supported | Missing | Needs Review",
       "evidence_excerpt": "short exact quote from the document or empty string",
       "reasoning": "brief explanation tied to the excerpt",
       "risk": "Low | Medium | High",
@@ -62,7 +55,9 @@ Return valid JSON only, using this schema:
   "limitations": ["specific limitation"]
 }}
 Confidence must be an integer 0-100 and reflects confidence in the mapping, not compliance.
-Only include a finding when there is a meaningful relationship to the catalogue. Include gaps only when the evidence supports identifying a plausible missing element; otherwise use Needs human review. Do not infer that a missing statement in one document means the organization lacks the control.
+Return exactly one finding for EACH control in the catalogue. Judge the evidence against each control's objective, gap_questions and expected_evidence.
+Status meanings: Supported = the document clearly covers the expected evidence; Partially Supported = some but not all is covered; Missing = this document contains no relevant evidence for this control (this does NOT mean the organization lacks the control); Needs Review = evidence is ambiguous or contradictory and a human must judge. A document marked Draft does not by itself mean Needs Review; mention that in limitations and still choose the status the content supports.
+If no evidence exists for a control, use status Missing, an empty evidence_excerpt, and recommend which expected evidence to request. Never invent quotes. Do not infer that a missing statement in one document means the organization lacks the control.
 CONTROL CATALOGUE:
 {control_text}
 EVIDENCE DOCUMENT:
@@ -121,7 +116,7 @@ with st.sidebar:
     st.code(f"Provider: Google Gemini API\nModel: {MODEL}\nAPI key: {'configured' if GEMINI_API_KEY else 'missing'}", language="text")
     st.caption("Evidence text is sent to the cloud provider for analysis. Use synthetic or sanitized data only.")
     st.markdown("**Prototype scope**")
-    st.write("Curated ISO/IEC 27001:2022 Annex A control subset.")
+    st.write("93 ISO/IEC 27001:2022 Annex A controls from your audit checklist.")
     st.warning("AI suggestions are not audit conclusions. Validate evidence and applicability with a qualified reviewer.")
 
 left, right = st.columns([1, 1])
@@ -129,12 +124,15 @@ with left:
     st.subheader("1 · Upload evidence")
     uploaded = st.file_uploader("Choose a sample policy or evidence file", type=["pdf", "txt", "md", "csv"])
     pasted = st.text_area("Or paste synthetic evidence text", height=180, placeholder="Example: The system owner reviews user access every quarter...")
+    labels = {f"{c['id']} — {c['name']}": c for c in CONTROLS}
+    chosen = st.multiselect("Controls to test (choose 1-5)", list(labels), max_selections=5)
+    selected = [labels[k] for k in chosen]
     analyze = st.button("Analyze evidence with cloud AI", type="primary", use_container_width=True)
 
 with right:
     st.subheader("2 · What the AI checks")
     st.markdown("""
-    - Maps evidence to a small, curated control catalogue
+    - Tests evidence against the controls you select (from your ISO 27001 checklist)
     - Quotes source text so a reviewer can trace the result
     - Flags potential evidence gaps without declaring noncompliance
     - Suggests practical next steps and a draft risk level
@@ -155,9 +153,12 @@ if analyze:
     if not evidence:
         st.error("Upload a file or paste evidence text first.")
         st.stop()
+    if not selected:
+        st.error("Choose 1-5 controls to test first.")
+        st.stop()
     with st.spinner(f"Sending evidence to cloud model {MODEL}…"):
         try:
-            result = call_cloud_model(evidence)
+            result = call_cloud_model(evidence, selected)
             st.session_state["result"] = result
             st.session_state["evidence_name"] = uploaded.name if uploaded else "Pasted synthetic evidence"
         except requests.exceptions.ConnectionError:
@@ -175,8 +176,8 @@ if result:
     findings = result.get("findings", [])
     c1, c2, c3 = st.columns(3)
     c1.metric("Draft findings", len(findings))
-    c2.metric("Potential evidence matches", sum(1 for x in findings if x.get("status") == "Potentially supported"))
-    c3.metric("Needs review / gaps", sum(1 for x in findings if x.get("status") != "Potentially supported"))
+    c2.metric("Supported / partial", sum(1 for x in findings if x.get("status") in ("Supported", "Partially Supported")))
+    c3.metric("Missing / needs review", sum(1 for x in findings if x.get("status") not in ("Supported", "Partially Supported")))
 
     if findings:
         for i, item in enumerate(findings, 1):
