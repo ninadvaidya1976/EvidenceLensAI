@@ -1,61 +1,59 @@
 # EvidenceLens AI
 
-A cloud-powered GRC audit-assistance prototype for Hacktoberfest Hack Day Bhopal. It uses the Google Gemini API to suggest evidence-to-control mappings and draft audit findings. **No local Gemma model or Ollama installation is required.**
+A cloud-powered GRC audit-assistance prototype built for Hacktoberfest Hack Day Bhopal. An auditor uploads evidence, picks the ISO/IEC 27001:2022 Annex A controls to test, and the Google Gemini API drafts an evidence assessment for each control. **A human auditor must review every result.**
 
 ## Features
-- Cloud inference through the Google Gemini API
-- PDF, TXT, Markdown and CSV evidence input, plus pasted text
-- Curated ISO/IEC 27001:2022 Annex A control subset
-- Exact evidence excerpts, draft risk levels, recommendations and mapping confidence
+- Evidence input: PDF, TXT, Markdown, CSV, **screenshots (PNG/JPG/WEBP)**, or pasted text
+- **93 Annex A controls** loaded from `controls.json` (converted from an ISO 27001:2022 audit checklist); choose 1-5 to test
+- The checklist's gap-assessment questions and expected evidence are used as the audit criteria
+- Per-control status: Supported, Partially Supported, Missing, Needs Review
+- Exact evidence excerpts, draft risk, confidence, reasoning and recommended next step
+- "Reviewed by auditor" tick per finding, saved into the exports
 - JSON and CSV report downloads
-- Human-review and evidence limitations made explicit
+- Automatic retry and fallback model when the main model is busy (HTTP 429/500/503)
 
-## Prerequisites
-- Python 3.10+
-- Internet connection
+## Requirements
+- Windows PowerShell (or any shell), internet connection
+- [uv](https://docs.astral.sh/uv/) (installs Python 3.12 for you), or Python 3.10+ with `venv`
 - A Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey)
 
-## Run on Windows PowerShell
-Open PowerShell in the extracted `EvidenceLensAI` project folder.
+## Run
+From the project folder:
 
 ```powershell
-py -m venv .venv
-.\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+uv venv --python 3.12
+uv pip install -r requirements.txt
+$env:GEMINI_API_KEY = "PASTE_YOUR_KEY_HERE"
+uv run streamlit run app.py
 ```
 
-Set the API key for the current PowerShell session (replace the placeholder with your own key):
+Open `http://localhost:8501`. The key lives only in that terminal session. Never paste it into code, screenshots or GitHub.
+
+## Models
+Defaults: `gemini-3.8-flash` (main) and `gemini-3.5-flash` (fallback). These names were present in the model list returned for the author's key on 17 Oct 2026. Model availability changes, so list what your key can use and override if needed:
 
 ```powershell
-$env:GEMINI_API_KEY = "PASTE_YOUR_GEMINI_API_KEY_HERE"
-$env:GEMINI_MODEL = "gemini-2.5-flash"
-.\.venv\Scripts\python.exe -m streamlit run app.py
+$env:GEMINI_MODEL = "exact-model-name"
+$env:GEMINI_FALLBACK_MODEL = "another-exact-model-name"
 ```
 
-Open the local URL Streamlit prints, usually `http://localhost:8501`.
-
-The environment variable is session-only. If you open a new PowerShell window, set it again. Never paste your API key into source code, screenshots, issue reports, or GitHub.
-
-## Model selection
-The default is `gemini-2.5-flash`. If your Google AI Studio account exposes a different compatible model, set `GEMINI_MODEL` to that model's exact API name before starting Streamlit.
-
-## Demo
-Use the included `sample_access_review.txt`. The sample is fictional and intentionally incomplete.
+## Demo files
+- `sample_access_review.txt`: synthetic, intentionally incomplete access-review text (try A.5.16, A.5.18, A.8.2, A.8.15)
+- `sample_log_settings_screenshot.png`: synthetic logging-settings screenshot (try A.8.15)
 
 ## Privacy and limitations
-- This is a cloud configuration: the evidence text you upload or paste is sent to Google Gemini for processing. Use only synthetic or sanitized evidence; never upload confidential client records or real personal data.
-- The control catalogue is a small demonstrator subset, not the complete ISO/IEC 27001 standard.
-- AI output is a draft. It does not establish compliance, operating effectiveness, or certification.
-- A missing statement in one file is not proof that a control is absent.
-- Verify every quote and control mapping against the source and authoritative standard.
+- Evidence you upload or paste is sent to Google Gemini. Free-tier requests may be used by Google to improve its products. Use only synthetic or sanitized evidence; never upload confidential client data or personal data.
+- AI output is a draft. It does not establish compliance, control effectiveness or certification.
+- Evidence presence does not prove a control is effective. A missing statement in one document does not prove a control is absent.
+- Text read from images can contain errors. Verify every quote and mapping against the original source and the authoritative standard.
+- The control catalogue was converted from a checklist; check it against the published standard before relying on it.
 
-## Suggested hackathon demo
-1. Set `GEMINI_API_KEY` in PowerShell.
-2. Upload `sample_access_review.txt`.
-3. Click **Analyze evidence with cloud AI**.
-4. Expand a finding and show the excerpt, mapping rationale, draft risk and next step.
-5. Download JSON and CSV reports.
-6. Explain that an auditor remains responsible for validating evidence and conclusions.
+## Demo flow
+1. Upload `sample_access_review.txt`, select A.5.16, A.5.18, A.8.2 and A.8.15, click **Analyze**.
+2. Open a finding: show the excerpt, status, risk, reasoning and next step.
+3. Upload the screenshot with A.8.15 to show image evidence.
+4. Tick **Reviewed by auditor** and download the JSON/CSV report.
+5. Point out that the auditor stays responsible for the conclusion.
 
 ## License
 MIT. See `LICENSE`.
